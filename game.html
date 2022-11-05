@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Master Simulator</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div id="image">
+        <img src="./assets/Drum set.jpg" alt="drumset-image">
+    </div>
+    <div class="game-bg">
+        <img src="./assets/game-background.jpg" alt="game-bg" id="rojer">
+    </div>
+    <div class="game-bg">
+        <img src="./assets/game-background.jpg" alt="game-bg" id="rojer2">
+    </div>
+    
+    <div id="bg-color"></div>
+        
+    <div class="keys">
+        <div class="key" data-key="65" class="sound" id="A">
+            <span class="text"><kbd>A</kbd></span>
+        </div>
+
+        <div class="key" data-key="83" class="sound" id="S">
+            <span class="text"><kbd>S</kbd></span>
+        </div>
+        
+        <div class="key" data-key="88" class="sound" id="X">
+            <span class="text"><kbd>X</kbd></span>
+        </div>
+        
+        <div class="key" data-key="72" class="sound" id="H">
+            <span class="text"><kbd>H</kbd></span>
+        </div>
+        
+        <div class="key" data-key="78" class="sound" id="N">
+            <span class="text"><kbd>N</kbd></span>
+        </div>
+        
+        <div class="key" data-key="75" class="sound" id="K">
+            <span class="text"><kbd>K</kbd></span>
+        </div>
+        
+        <div class="key" data-key="76" class="sound" id="L">
+            <span class="text"><kbd>L</kbd></span>
+        </div>
+        
+        <div class="key" data-key="87" class="sound" id="W">
+            <span class="text"><kbd>W</kbd></span>
+        </div>
+        
+        <div class="key" data-key="73" class="sound" id="I">
+            <span class="text"><kbd>I</kbd></span>
+        </div>
+
+        <div class="key" data-key="67" class="sound" id="C">
+            <span class="text"><kbd>C</kbd></span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sounds/crash.mp3" type="audio/mp3"></audio>
+    <audio data-key="83" src="./sounds/tom-1.mp3" type="audio/mp3"></audio>
+    <audio data-key="88" src="./sounds/snare.mp3" type="audio/mp3"></audio>
+    <audio data-key="72" src="./sounds/tom-2.mp3" type="audio/mp3"></audio>
+    <audio data-key="78" src="./sounds/tom-3.mp3" type="audio/mp3"></audio>
+    <audio data-key="75" src="./sounds/Crash (4).mp3" type="audio/mp3"></audio>
+    <audio data-key="76" src="./sounds/ride.mp3" type="audio/mp3"></audio>
+    <audio data-key="87" src="./sounds/Crash (15).mp3" type="audio/mp3"></audio>
+    <audio data-key="73" src="./sounds/Crash (8).mp3" type="audio/mp3"></audio>
+    <audio data-key="67" src="./sounds/snare.mp3" type="audio/mp3"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

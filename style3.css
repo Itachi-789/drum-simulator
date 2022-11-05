@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.key{
+    border: 4px solid white;
+    justify-content: space-evenly;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 50px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+    position: fixed;
+    border-radius: 70px;
+}
+
+
+#image{
+    height: 400px;
+    width: 500px;
+    position: fixed;
+    margin-left: 300px;
+    z-index: 3;
+    opacity: 100%;
+}
+
+#A{
+    margin: 500px 600px 400px 430px;
+    z-index: 6;
+    position: fixed;
+}
+
+#S{
+    margin: 450px 600px 740px 740px;
+    z-index: 6;
+    position: fixed;
+}
+
+#X{
+    margin: 680px 600px 740px 730px;
+    z-index: 6;
+    position: fixed;
+}
+
+#H{
+    margin: 430px 600px 740px 970px;
+    z-index: 6;
+    position: fixed;
+}
+
+#N{
+    margin: 690px 600px 740px 1100px;
+    z-index: 6;
+    position: fixed;
+}
+
+#K{
+    margin: 370px 600px 740px 1300px;
+    z-index: 6;
+    position: fixed;
+}
+
+#L{
+    margin: 590px 600px 740px 1370px;
+    z-index: 6;
+    position: fixed;
+}
+
+#W{
+    margin: 239px 600px 740px 620px;
+    z-index: 6;
+    position: fixed;
+}
+
+#I{
+    margin: 215px 600px 740px 1060px;
+    z-index: 6;
+    position: fixed;
+}
+
+#C{
+    margin: 680px 600px 740px 640px;
+    z-index: 6;
+    position: fixed;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 10px red;
+    color: red;
+}
+
+kbd{
+    display: block;
+    font-size: 30px;
+}
+
+#bg-color{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.game-bg{
+    height: 100rem;
+    width: 100rem;
+    z-index: 2;
+    position: fixed;
+}
+#rojer{
+    height: 100vh;
+    width: 20vw;
+}
+#rojer2{
+    height: 100vh;
+    width: 20vw;
+    margin: 0vw 0vw 0vw 80vw ;
+}

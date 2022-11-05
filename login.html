@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum master simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/MASKING's well animated drum solo_Full-HD.mp4" type="video/mp4">
+    </video>
+
+        <div id="logo">
+            <img src="./assets/logo.gif" alt="Drum master logo">
+        </div>
+
+        <a href="game.html"><button id="btn">PLAY </button></a>
+        <a href="instruction.html"><button id="instructions"> Instructions </button></a>
+        <button id="MusicON" onclick="audioPause()"> Music: ON</button>
+        <button id="MusicOFF" onclick="audioPlay()"> Music: OFF</button>
+
+        <audio controls hidden loop id="myAudio">
+            <source src="./assets/The Game (Triple H) (PagalWorld.com).mp3" type="audio/mp3">
+        </audio>
+       <script src="app.js"></script> 
+</body>
+</html>
